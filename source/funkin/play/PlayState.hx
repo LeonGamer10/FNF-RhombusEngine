@@ -1054,7 +1054,7 @@ class PlayState extends MusicBeatSubState
 	  timeBar.alpha = 0;
 	  timeBarBG.alpha = 0;
 	  timeText.alpha = 0;
-	  versionText.text = currentChart.songName + ' - ' + currentDifficulty.toTitleCase() + ' | RE v0.1.0'
+	  versionText.text = currentChart.songName + ' - ' + currentDifficulty.toTitleCase() + ' | RHOMBUS v0.1.1';
 	  judgementCounter.text = 'NPS: 0 (Max: 0)\nSicks: 0\nGoods: 0\nBads: 0\nShits: 0';
 
       Countdown.performCountdown(currentStageId.startsWith('school'));
@@ -1732,7 +1732,7 @@ class PlayState extends MusicBeatSubState
 	add(scoreText);
 
 	// The version text on the bottom left corner of the screen.
-	versionText = new FlxText(0, FlxG.height - 18, 0, currentChart.songName + ' - ' + currentDifficulty.toTitleCase() + ' | RE v0.1.0', 16);
+	versionText = new FlxText(0, FlxG.height - 18, 0, currentChart.songName + ' - ' + currentDifficulty.toTitleCase() + ' | RHOMBUS v0.1.1', 16);
 	versionText.setFormat(Paths.font("vcr.ttf"), 15, FlxColor.WHITE, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 	versionText.scrollFactor.set();
 	add(versionText);
