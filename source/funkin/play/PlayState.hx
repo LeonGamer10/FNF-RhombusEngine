@@ -1728,7 +1728,7 @@ class PlayState extends MusicBeatSubState
     scoreText = new FlxText(0, healthBarBG.y + 41, FlxG.width, "", 20);
     scoreText.setFormat(Paths.font('vcr.ttf'), 16, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
     scoreText.scrollFactor.set();
-    scoreText.zIndex = 802;
+    scoreText.zIndex = 851;
 	add(scoreText);
 
 	// The version text on the bottom left corner of the screen.
