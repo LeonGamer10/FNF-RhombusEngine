@@ -496,7 +496,7 @@ class Constants
   /**
    * If true, the player will not receive the ghost miss penalty if there are no notes within the hit window.
    */
-  public static final GHOST_TAPPING:Bool = Preferences.ghostTapping;
+  public static var GHOST_TAPPING:Bool = true;
 
   /**
    * The maximum number of previous file paths for the Chart Editor to remember.

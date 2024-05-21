@@ -2561,6 +2561,8 @@ class PlayState extends MusicBeatSubState
 
       var notesInDirection:Array<NoteSprite> = notesByDirection[input.noteDirection];
 
+	  Constants.GHOST_TAPPING = Preferences.ghostTapping;
+
       if (!Constants.GHOST_TAPPING && notesInDirection.length == 0)
       {
         // Pressed a wrong key with no notes nearby.
