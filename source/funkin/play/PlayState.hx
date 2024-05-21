@@ -2735,8 +2735,6 @@ class PlayState extends MusicBeatSubState
    */
   function ghostNoteMiss(direction:NoteDirection, hasPossibleNotes:Bool = true):Void
   {
-    if (Preferences.ghostTapping) return;
-
     var event:GhostMissNoteScriptEvent = new GhostMissNoteScriptEvent(direction, // Direction missed in.
       hasPossibleNotes, // Whether there was a note you could have hit.
       - 1 * Constants.HEALTH_MISS_PENALTY, // How much health to add (negative).
