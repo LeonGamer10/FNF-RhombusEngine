@@ -995,7 +995,7 @@ typedef SaveDataOptions =
   var autoPause:Bool;
 
   /**
-   * If enabled, you won't miss from pressing keys while there are no notes able to be hit.
+   * If enabled, the player will not receive the ghost miss penalty if there are no notes within the hit window.
    * @default `true`
    */
    var ghostTapping:Bool;
